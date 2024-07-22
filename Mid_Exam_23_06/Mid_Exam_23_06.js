@@ -139,4 +139,4 @@ chat(["Chat Hello",
     "Edit darling Darling",
     "Spam how are you",
     "Delete Darling",
-    "end"])    
+    "end"])
