@@ -1,11 +1,11 @@
 function solve(input){
-    for (let i = 0; i < input.length; i++) {
-        let index = input.findIndex((e) => e === input[i])
-        if (index !== -1){
-            input.slice(index, 1)
+    let temp = []
+    for (const num of input) {
+        if (!temp.includes(num)){
+            temp.push(num)
         }
     }
-    console.log(input);
+    console.log(temp.join(' '));
 }
 
-solve([7,8,9,7,2,3,4,1,2])
+solve([20,8,12,13,4,4,8,5])
